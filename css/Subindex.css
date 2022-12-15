@@ -1,0 +1,148 @@
+body{
+  background: linear-gradient(180deg, rgba(255,108,244,1) 0%, rgba(81,166,255,1) 48%, rgba(0,212,255,1) 100%);
+  overflow-x: hidden;
+  margin: 0px;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.container1 {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(255, 254, 240);
+  overflow: hidden;
+  box-shadow: 0px 5px 5px rgb(154, 36, 158);
+  position: fixed;
+}
+
+.container2 {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.container3{
+  padding-top: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+
+h1{
+  margin-top: -60px;
+  font-size: 3.5em;
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(to right, #30CFD0 40%, #ff23ed 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+h2{
+  font-size: 2.5em;
+  margin: 1% 0% -5% 0%;
+  font-family: 'Kanit', sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 4px black;
+}
+
+
+.card {
+  width: 300px;
+  height: 500px;
+  background-color: #ffffff;
+  text-align: center;
+
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.card img {
+  width: 250px;
+}
+.card .detail {
+  height: 150px;
+  overflow-y: auto;
+}
+ul {
+  display: inline-block;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding: 0;
+  /* padding-inline-start: 100px; */
+}
+.card:hover {
+  background-color: rgb(255, 255, 255);
+  -webkit-filter: drop-shadow(0px 0px 15px rgb(255, 230, 0)); 
+}
+
+#my-game {
+  width: 100px;
+  height: 60px;
+  background-color: orange;
+}
+
+.name{
+  font-family: 'Kanit', sans-serif;
+}
+
+.name:hover {
+  color: rgb(204, 0, 255);
+  cursor: pointer;
+  font-family: 'Kanit', sans-serif;
+}
+
+button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  background: rgb(108,255,110);
+  background: linear-gradient(180deg, rgba(108,255,110,1) 0%, rgba(134,255,81,1) 50%, rgba(211,255,0,1) 100%);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: -100px;
+  margin-right: 20px;
+  width: 100px;
+  height: 60px;
+  border-radius: 15px;
+  padding: 0px;
+  align-items: center;
+  border: 0px;
+  box-shadow: 2px 2px 5px rgb(36, 36, 36);
+  }
+
+  .button {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  button:hover {-webkit-filter: drop-shadow(0px 0px 10px rgb(115, 239, 255)); }
+  a:hover {-webkit-filter: drop-shadow(0px 0px 5px rgb(158, 158, 158)); }
+
+
+ .container1 img {
+  padding-top: 6px;
+  padding-left: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  box-shadow: -0px -5px 5px rgb(154, 36, 158);
+}

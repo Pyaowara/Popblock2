@@ -1,0 +1,236 @@
+body {
+    margin: auto;
+    background-image: url(dirt.png);
+    padding: 0%;
+    font-family: 'Kanit', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.container{
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    background-repeat: repeat-x;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(bg2.gif);
+    
+}
+
+canvas {
+    width: 95%;
+}
+
+.container2{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.container3{
+    /* width: 60%; */
+    width: 100%; 
+    height: 100%;
+    display: inline-flex;
+    /* justify-content: center; */
+    margin: 1%;
+}
+
+.container4{
+    margin-top: 50px;
+    width: 50%;
+    height: auto;
+}
+
+@media only screen and (max-width: 512px) {
+    .container3{
+    display: block;
+
+    }
+   .container4{
+      width: 100%;
+    }
+    .container5{
+      width: 100%;
+    }
+
+}
+
+.container5{
+    width: 50%;
+    height: auto;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h1{
+    font-size: 4.5em;
+    margin: 1% 0% -5% 0%;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+h2{
+    font-size: 6.5em;
+    color: rgb(255, 115, 0);
+    overflow-x: visible;
+    font-size: 3.5em;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 4px 4px black;
+
+}
+
+h3{
+    font-size: 4.5em;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+h4{
+    /* margin-top: 1%;
+    margin-left: 150px; */
+    margin: 0 10%;
+    padding: 5%;
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    text-shadow: 4px 4px black;
+    word-wrap: break-word;
+}
+
+#score{
+    font-size: 4em;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 4px 4px rgb(126, 40, 0);
+    color: rgb(255, 238, 0);
+    margin-bottom: -10%;
+}
+
+
+button{
+    margin-top: 4%;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px 250px 10px 250px;
+    border: none;
+    outline: none;
+}
+
+b{
+    color: rgb(9, 255, 0);
+    text-shadow: 4px 2px black;
+    padding-top: 100px;
+    overflow-x: visible;
+    font-size: 3.5em;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+p{
+}
+
+a{
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+    #popcat1 {
+        width: 100%;
+        margin-top: -10%;
+        overflow-x: hidden;
+    }
+    #HP {
+       padding-right: 10%; 
+       padding-left: 10%;
+    }
+    #score {
+        font-size: 3rem;
+        text-align: center;
+    }
+    h1{
+        font-size: 2.5em;
+        margin-bottom: -20%;
+    }
+    h2{
+
+    }
+    h3 {
+        font-size: 2.5em;
+        padding: 10%;
+    }
+    img{
+        height: auto;
+    }
+    b{
+        overflow-x: auto;
+        padding-top: 100px;
+    }
+    p{
+        padding-top: 30px; 
+    }
+    
+    a{
+        padding-top: 100px;
+    }
+    
+}
+
+/*----------------สำหรับAPI------------------*/
+.card {
+    width: 300px;
+    height: 500px;
+    background-color: #dcdcdc;
+    text-align: center;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .card img {
+    width: 250px;
+  }
+  .card .detail {
+    height: 150px;
+    overflow-y: scroll;
+  }
+  ul {
+    display: inline-block;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    justify-content: center
+  }
+  .card:hover {
+    background-color: white;
+  }
+
+  #my-game {
+    width: 100px;
+    height: 60px;
+    background-color: orange;
+  }
+
+  .name:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  footer {
+        text-align: center;
+        padding: 3px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        box-shadow: -0px -30px 30px rgb(0, 0, 0);
+      }
+
+
+  img:hover {-webkit-filter: drop-shadow(0px 0px 50px rgb(115, 239, 255)); }
